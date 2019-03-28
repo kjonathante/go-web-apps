@@ -1,0 +1,1 @@
+docker run -ti --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp -p 8080:8080 golang:1.8 go run server.go 
